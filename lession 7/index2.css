@@ -8,7 +8,7 @@
     justify-content: center;
 }
 body{
-    position: absolute;
+    margin: 0 auto;
     width: 1440px;
     font-family: 'Poppins', sans-serif;
     background-color: var(-background-color);
