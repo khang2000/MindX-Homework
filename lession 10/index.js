@@ -345,8 +345,8 @@ console.log(`bài 4`);
 function listCategory(products) {
   let list = [];
   for (let i = 0; i < products.length; i++) {
-    if (products[i].category != list[i]) {
-      list[i] = products[i].category;
+    if (list.indexOf(products[i].category) === -1) {
+      list.push(products[i].category);
     }
   }
   return list;

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lession 11</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div>Bài 1</div>
+    <h2 style="text-align: center">Học Javascript thật đơn giản</h2>
+    <div id="bull" class="light">
+      <button class="off" onclick="turnoff()">Turn off</button>
+      <img class="img" src="./images/pic_bulboff.gif" alt="" />
+      <button class="on" onclick="turnon()">Turn on</button>
+    </div>
+    <div>Bài 2</div>
+    <div>
+      <button class="register" onclick="ok()">Đăng ký khóa học</button>
+      <h3 class="h3">Khóa học chưa được đăng ký</h3>
+    </div>
+    <div>Bài 3</div>
+    <div class="log">
+      <h3>Đăng nhập</h3>
+      <div>
+        <div class="blank">
+          <label for="account">Tài khoản:</label>
+          <input type="text" id="account" />
+        </div>
+        <div class="blank">
+          <label for="password">Mật khẩu:</label>
+          <input type="text" id="password" />
+        </div>
+        <br />
+        <button class="alert" onclick="login()">Thông báo</button>
+      </div>
+    </div>
+    <h4>Bài 4</h4>
+    <div class="bill">
+      <h3 style="text-align: center">BÀI TẬP Javascript</h3>
+      <div class="fill">
+        <label for="bill">Tổng bill</label>
+        <input type="text" id="bill" />
+      </div>
+      <div class="fill">
+        <label for="tip">Tip cho nhân viên</label>
+        <input type="text" id="tip" />
+      </div>
+      <div class="fill">
+        <label for="num">Số người cùng đi</label>
+        <input type="text" id="num" />
+      </div>
+      <h3 style="text-align: center" class="money"></h3>
+      <button class="calc" onclick="calcmoney()">Tính tiền thôi nào</button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

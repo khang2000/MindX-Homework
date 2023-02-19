@@ -1,0 +1,60 @@
+.light {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+button {
+  width: 150px;
+  height: 50px;
+  padding: auto;
+  font-size: 15px;
+  background-color: coral;
+  border: none;
+  font-style: oblique;
+  font-weight: 400;
+}
+h2 {
+  font-size: 50px;
+  color: red;
+}
+/* Bài 3 */
+.log {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: aqua;
+  margin: 24px auto;
+  width: 400px;
+  text-align: center;
+}
+.alert {
+  background-color: burlywood;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  padding: auto;
+  margin-bottom: 10px;
+  width: 150px;
+}
+.blank {
+  margin-top: 24px;
+}
+/* Bài 4 */
+.bill {
+  background-color: orangered;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 400px;
+  margin: 24px auto;
+}
+.fill {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0;
+  padding: 0 50px;
+}
+.bill button {
+  background-color: darkkhaki;
+  border-radius: 5px;
+  margin-left: 125px;
+}
